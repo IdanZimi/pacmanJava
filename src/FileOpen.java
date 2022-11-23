@@ -16,7 +16,7 @@ public class FileOpen {
 
 
     public static void main(String[] args) {
-
+        int temp = 1000;
         int row = 0;
         Scanner sc = openFile("C:/Users/ranni/Downloads/pacman_a.screen");
         while(sc.hasNextLine()){
